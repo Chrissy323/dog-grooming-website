@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Chrissy Anderson
+    File Name: feedback.html
+    Date: 11/23/2024
+-->
+<html lang="en">
+
+<head>
+    <title>Feedback - Puppy Pawsitivity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We value your feedback! Help us improve our services and provide the best grooming experience for your furry friends.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Favicon -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Puppy Pawsitivity</h1>
+        <figure>
+            <img src="images/dog-banner.jpg" alt="A banner with dogs">
+            <figcaption>Making ALL puppies' experiences simply pawsitive</figcaption>
+        </figure>
+    </header>
+
+    <!-- Hamburger Menu for Mobile -->
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services Provided</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+  <main>
+    <section id="feedback">
+        <h2>We Value Your Feedback!</h2>
+        <p>Your feedback helps us provide the best possible experience for you and your furry friends.</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </fieldset>
+
+ <fieldset>
+    <legend>Your Feedback</legend>
+    <label for="service">Service Used:</label>
+    <select id="service" name="service" required>
+        <option value="">-- Select a Service --</option>
+        <option value="bath">Bath & Brush</option>
+        <option value="nails">Nail Trimming</option>
+        <option value="haircut">Haircut</option>
+        <option value="teeth">Teeth Brushing</option>
+        <option value="ears">Ear Cleaning</option>
+    </select>
+
+    <label>Rate Your Experience:</label>
+    <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" required>
+        <label for="star5">5 Stars</label>
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">4 Stars</label>
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">3 Stars</label>
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">2 Stars</label>
+        <input type="radio" id="star1" name="rating" value="1">
+        <label for="star1">1 Star</label>
+    </div>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" placeholder="Share your feedback here..." rows="5"></textarea>
+</fieldset>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+</main>
+
+    <!-- Footer Section -->
+	<footer>
+	    <a href="tel:+1234567890" class="phone-link">Call Us: (123) 456-7890</a><br>
+	    <a href="mailto:puppypawsitivity@groomers.net">puppypawsitivity@groomers.net</a>
+	    <div class="social-media">
+    	    <a href="https://www.facebook.com" target="_blank">
+        	    <img src="images/facebook.png" alt="Facebook Icon" class="social-icon">
+       		 </a>
+	        <a href="https://www.instagram.com" target="_blank">
+	            <img src="images/instagram.png" alt="Instagram Icon" class="social-icon">
+	        </a>
+	    </div>
+	</footer>
+	
+    <!-- Link to External JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

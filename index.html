@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<!-- 
+    Author: Chrissy Anderson
+    File Name: index.html
+    Date: 11/23/2024
+-->
+<html lang="en">
+
+<head>
+    <title>Home - Puppy Pawsitivity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Puppy Pawsitivity! We offer top-quality grooming services for your furry friends, ensuring they feel loved and pampered.">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Favicon -->
+</head>
+
+<body>
+    <!-- Mobile-only and desktop-only sections -->
+    <aside class="mobile-content">This content is for mobile view only.</aside>
+    <aside class="desktop-content" style="display: none;">This content is for tablet and desktop views.</aside>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Puppy Pawsitivity</h1>
+        <figure>
+            <img src="images/dog-banner.jpg" alt="A banner with dogs">
+            <figcaption>Making ALL puppies' experiences simply pawsitive</figcaption>
+        </figure>
+    </header>
+
+    <!-- Hamburger Menu for Mobile -->
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services Provided</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="intro">
+            <h2>Welcome to Puppy Pawsitivity!</h2>
+            <p>We make every pup feel loved, pampered, and pawsitively perfect!</p>
+        </section>
+
+        <!-- Featured Services -->
+        <section id="services-grid" class="grid-container">
+            <h2>Our Featured Services</h2> <!-- Added heading for the section -->
+            <article class="service">
+                <h3>Bath & Brush</h3> <!-- Added heading for the article -->
+                <figure>
+                    <img src="images/dog-bath.jpg" alt="Dog being bathed">
+                    <figcaption>Bath & Brush</figcaption>
+                </figure>
+                <p>A gentle bath with pet-safe shampoo, followed by brushing to reduce shedding.</p>
+            </article>
+
+            <article class="service">
+                <h3>Nail Trimming</h3> <!-- Added heading for the article -->
+                <figure>
+                    <img src="images/dog-nail-trim.jpg" alt="Dog having nails trimmed">
+                    <figcaption>Nail Trimming</figcaption>
+                </figure>
+                <p>Keep your pet's nails short and comfortable.</p>
+            </article>
+
+            <article class="service">
+                <h3>Collar Fitting</h3> <!-- Added heading for the article -->
+                <figure>
+                    <img src="images/small-dog-big-colar.jpg" alt="Small dog in a big collar">
+                    <figcaption>Collar Fitting</figcaption>
+                </figure>
+                <p>Ensure a perfect fit with our professional collar fitting service.</p>
+            </article>
+        </section>
+
+        <!-- Video Section -->
+        <section id="welcome">
+            <h2>Welcome Video</h2> <!-- Added heading for the section -->
+            <video controls poster="images/dog-banner.jpg" width="640" height="360">
+                <source src="media/groom.mp4" type="video/mp4">
+                <source src="media/groom.webm" type="video/webm">
+                <track src="media/captions.vtt" kind="subtitles" srclang="en" label="English Captions">
+                <track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
+                Your browser does not support the video tag. Please update your browser to view this video.
+            </video>
+        </section>
+        
+        <!-- Meet Chrissy Section -->
+        <section id="meet-chrissy">
+            <h2>Meet Chrissy Anderson</h2>
+            <img src="images/chrissya.png" alt="Photo of Chrissy Anderson">
+            <p>Hello! I’m Chrissy Anderson, the heart behind Puppy Pawsitivity. I’m passionate about creating a positive, nurturing environment for every pet we groom. Welcome to our family!</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+	<footer>
+	    <a href="tel:+1234567890" class="phone-link">Call Us: (123) 456-7890</a><br>
+	    <a href="mailto:puppypawsitivity@groomers.net">puppypawsitivity@groomers.net</a>
+	    <div class="social-media">
+    	    <a href="https://www.facebook.com" target="_blank">
+        	    <img src="images/facebook.png" alt="Facebook Icon" class="social-icon">
+       		 </a>
+	        <a href="https://www.instagram.com" target="_blank">
+	            <img src="images/instagram.png" alt="Instagram Icon" class="social-icon">
+	        </a>
+	    </div>
+	</footer>
+	
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Chrissy Anderson
+    File Name: portfolio.html
+    Date: 11/23/2024
+-->
+<html lang="en">
+
+<head>
+    <title>Portfolio - Puppy Pawsitivity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View our portfolio to see the exceptional grooming results we provide for dogs of all shapes and sizes at Puppy Pawsitivity.">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Favicon -->
+</head>
+
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Puppy Pawsitivity</h1>
+        <figure>
+            <img src="images/dog-banner.jpg" alt="A banner with dogs">
+            <figcaption>Making ALL puppies' experiences simply pawsitive</figcaption>
+        </figure>
+    </header>
+
+    <!-- Hamburger Menu for Mobile -->
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services Provided</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Portfolio Grid -->
+    <main class="grid-container">
+        <section id="portfolio">
+            <h2>Our Featured Services</h2>
+
+            <!-- Portfolio Items -->
+            <article class="portfolio-item">
+                <h3>Bath & Brush</h3>
+                <figure>
+                    <img src="images/dog-bath.jpg" alt="Dog being bathed">
+                    <figcaption>A gentle bath with pet-safe shampoo, followed by brushing to reduce shedding.</figcaption>
+                </figure>
+            </article>
+
+            <article class="portfolio-item">
+                <h3>Nail Trimming</h3>
+                <figure>
+                    <img src="images/dog-nail-trim.jpg" alt="Dog having its nails trimmed">
+                    <figcaption>Keep your pet’s nails short and comfortable.</figcaption>
+                </figure>
+            </article>
+
+            <article class="portfolio-item">
+                <h3>Collar Fitting</h3>
+                <figure>
+                    <img src="images/small-dog-big-colar.jpg" alt="Small dog wearing a large collar">
+                    <figcaption>Ensure a perfect fit with our professional collar fitting service.</figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+	<footer>
+	    <a href="tel:+1234567890" class="phone-link">Call Us: (123) 456-7890</a><br>
+	    <a href="mailto:puppypawsitivity@groomers.net">puppypawsitivity@groomers.net</a>
+	    <div class="social-media">
+    	    <a href="https://www.facebook.com" target="_blank">
+        	    <img src="images/facebook.png" alt="Facebook Icon" class="social-icon">
+       		 </a>
+	        <a href="https://www.instagram.com" target="_blank">
+	            <img src="images/instagram.png" alt="Instagram Icon" class="social-icon">
+	        </a>
+	    </div>
+	</footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
